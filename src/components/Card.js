@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {StyleSheet, View, Text, TouchableOpacity, FlatList} from 'react-native';
 import {COLOR_CODES} from '../utility/Theme';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
+import Highlighter from 'react-native-highlight-words';
 
 export default class Accordion extends Component {
   constructor(props) {
@@ -43,9 +44,15 @@ export default class Accordion extends Component {
                   </Text>
                 ) : null}
                 {val.items.map((item, inde) => (
-                  <Text key={item + inde} style={styles.categoryItem}>
-                    {item}
-                  </Text>
+                  <Highlighter
+                    highlightStyle={{backgroundColor: 'yellow'}}
+                    searchWords={[this.props.inputValue]}
+                    // textToHighlight='The dog is chasing the cat. Or perhaps they're just playing?'
+                    textToHighlight={item}
+                  />
+                  // <Text key={item + inde} style={styles.categoryItem}>
+                  //   {item}
+                  // </Text>
                 ))}
               </View>
             ))

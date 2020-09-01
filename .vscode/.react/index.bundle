@@ -1339,7 +1339,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   _reactNative.AppRegistry.registerComponent(_app.name, function () {
     return _App.default;
   });
-},0,[1,2,473,648],"index.js");
+},0,[1,2,473,649],"index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
@@ -98827,7 +98827,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 156,
+        lineNumber: 155,
         columnNumber: 11
       }
     }, _react.default.createElement(_reactNative.FlatList, {
@@ -98849,7 +98849,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 168,
+            lineNumber: 167,
             columnNumber: 17
           }
         });
@@ -98857,7 +98857,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 159,
+        lineNumber: 158,
         columnNumber: 13
       }
     })))));
@@ -98920,7 +98920,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var _c;
 
   $RefreshReg$(_c, "App");
-},473,[1,9,22,108,14,55,2,474,639,642,643,646,647],"App.js");
+},473,[1,9,22,108,14,55,2,474,639,643,644,647,648],"App.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -102992,569 +102992,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var _c;
 
   $RefreshReg$(_c, "SearchBar");
-},639,[1,9,14,55,2,474,649,640],"src/components/SearchBar.js");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.getImageSourceSync = exports.getImageSource = exports.TabBarItemIOS = exports.TabBarItem = exports.Button = exports.default = void 0;
-
-  var _createIconSet = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "./lib/create-icon-set"));
-
-  var _EvilIcons = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "./glyphmaps/EvilIcons.json"));
-
-  var iconSet = (0, _createIconSet.default)(_EvilIcons.default, 'EvilIcons', 'EvilIcons.ttf');
-  var _default = iconSet;
-  exports.default = _default;
-  var Button = iconSet.Button,
-      TabBarItem = iconSet.TabBarItem,
-      TabBarItemIOS = iconSet.TabBarItemIOS,
-      getImageSource = iconSet.getImageSource,
-      getImageSourceSync = iconSet.getImageSourceSync;
-  exports.getImageSourceSync = getImageSourceSync;
-  exports.getImageSource = getImageSource;
-  exports.TabBarItemIOS = TabBarItemIOS;
-  exports.TabBarItem = TabBarItem;
-  exports.Button = Button;
-},640,[1,475,641],"node_modules/react-native-vector-icons/EvilIcons.js");
-__d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
-  module.exports = {
-  "archive": 61696,
-  "arrow-down": 61697,
-  "arrow-left": 61698,
-  "arrow-right": 61699,
-  "arrow-up": 61700,
-  "bell": 61701,
-  "calendar": 61702,
-  "camera": 61703,
-  "cart": 61704,
-  "chart": 61705,
-  "check": 61706,
-  "chevron-down": 61707,
-  "chevron-left": 61708,
-  "chevron-right": 61709,
-  "chevron-up": 61710,
-  "clock": 61711,
-  "close": 61712,
-  "close-o": 61713,
-  "comment": 61714,
-  "credit-card": 61715,
-  "envelope": 61716,
-  "exclamation": 61717,
-  "external-link": 61718,
-  "eye": 61719,
-  "gear": 61720,
-  "heart": 61721,
-  "image": 61722,
-  "like": 61723,
-  "link": 61724,
-  "location": 61725,
-  "lock": 61726,
-  "minus": 61727,
-  "navicon": 61728,
-  "paperclip": 61729,
-  "pencil": 61730,
-  "play": 61731,
-  "plus": 61732,
-  "pointer": 61733,
-  "question": 61734,
-  "redo": 61735,
-  "refresh": 61736,
-  "retweet": 61737,
-  "sc-facebook": 61738,
-  "sc-github": 61739,
-  "sc-google-plus": 61740,
-  "sc-instagram": 61741,
-  "sc-linkedin": 61742,
-  "sc-odnoklassniki": 61743,
-  "sc-pinterest": 61744,
-  "sc-skype": 61745,
-  "sc-soundcloud": 61746,
-  "sc-telegram": 61747,
-  "sc-tumblr": 61748,
-  "sc-twitter": 61749,
-  "sc-vimeo": 61750,
-  "sc-vk": 61751,
-  "sc-youtube": 61752,
-  "search": 61753,
-  "share-apple": 61754,
-  "share-google": 61755,
-  "spinner": 61756,
-  "spinner-2": 61757,
-  "spinner-3": 61758,
-  "star": 61759,
-  "tag": 61760,
-  "trash": 61761,
-  "trophy": 61762,
-  "undo": 61763,
-  "unlock": 61764,
-  "user": 61765
-};
-},641,[],"node_modules/react-native-vector-icons/glyphmaps/EvilIcons.json");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
-
-  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.default = void 0;
-
-  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
-
-  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/createClass"));
-
-  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/inherits"));
-
-  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/possibleConstructorReturn"));
-
-  var _getPrototypeOf2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf"));
-
-  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[7], "react"));
-
-  var _reactNative = _$$_REQUIRE(_dependencyMap[8], "react-native");
-
-  var _Theme = _$$_REQUIRE(_dependencyMap[9], "../utility/Theme");
-
-  var _SimpleLineIcons = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "react-native-vector-icons/SimpleLineIcons"));
-
-  var _jsxFileName = "/home/lakshbhutani/CategoryApp/src/components/Card.js";
-
-  function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
-
-  function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-  var Accordion = function (_Component) {
-    (0, _inherits2.default)(Accordion, _Component);
-
-    var _super = _createSuper(Accordion);
-
-    function Accordion(props) {
-      (0, _classCallCheck2.default)(this, Accordion);
-      return _super.call(this, props);
-    }
-
-    (0, _createClass2.default)(Accordion, [{
-      key: "render",
-      value: function render() {
-        var _this = this;
-
-        var _this$props$item = this.props.item,
-            title = _this$props$item.title,
-            isCollapsed = _this$props$item.isCollapsed,
-            data = _this$props$item.data,
-            itemColor = _this$props$item.itemColor,
-            servingSize = _this$props$item.servingSize;
-        return _react.default.createElement(_reactNative.View, {
-          style: styles.accordionHolder,
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 14,
-            columnNumber: 7
-          }
-        }, _react.default.createElement(_reactNative.TouchableOpacity, {
-          activeOpacity: 0.7,
-          onPress: this.props.onClickFunction,
-          style: styles.button,
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 15,
-            columnNumber: 9
-          }
-        }, _react.default.createElement(_reactNative.View, {
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 19,
-            columnNumber: 11
-          }
-        }, _react.default.createElement(_reactNative.Text, {
-          style: [styles.accordionButtonText, {
-            color: itemColor
-          }],
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 20,
-            columnNumber: 13
-          }
-        }, title, ' ', _react.default.createElement(_reactNative.Text, {
-          style: {
-            color: _Theme.COLOR_CODES.BLACK,
-            fontSize: 18
-          },
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 22,
-            columnNumber: 15
-          }
-        }, " " + (servingSize ? '(' + servingSize + ')' : '')))), _react.default.createElement(_reactNative.View, {
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 27,
-            columnNumber: 11
-          }
-        }, _react.default.createElement(_SimpleLineIcons.default, {
-          name: isCollapsed ? 'arrow-up' : 'arrow-down',
-          size: 15,
-          color: _Theme.COLOR_CODES.DARK_PRIMARY,
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 28,
-            columnNumber: 13
-          }
-        }))), isCollapsed ? data.map(function (val, index) {
-          return _react.default.createElement(_reactNative.View, {
-            __self: _this,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 37,
-              columnNumber: 15
-            }
-          }, val.subCategoryname ? _react.default.createElement(_reactNative.Text, {
-            key: val + index + Math.floor(Math.random() * 10),
-            style: [styles.accordionText, {
-              color: itemColor
-            }],
-            __self: _this,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 39,
-              columnNumber: 19
-            }
-          }, val.subCategoryname) : null, val.items.map(function (item, inde) {
-            return _react.default.createElement(_reactNative.Text, {
-              key: item + inde,
-              style: styles.categoryItem,
-              __self: _this,
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 46,
-                columnNumber: 19
-              }
-            }, item);
-          }));
-        }) : null);
-      }
-    }]);
-    return Accordion;
-  }(_react.Component);
-
-  exports.default = Accordion;
-
-  var styles = _reactNative.StyleSheet.create({
-    accordionText: {
-      fontSize: 15,
-      paddingVertical: 10
-    },
-    categoryItem: {
-      fontSize: 13,
-      paddingVertical: 8,
-      borderBottomWidth: 0.2,
-      color: _Theme.COLOR_CODES.WHITE.BLACK,
-      opacity: 0.8,
-      borderBottomColor: _Theme.COLOR_CODES.WHITE.PRIMARY
-    },
-    accordionButtonText: {
-      fontSize: 21
-    },
-    accordionHolder: {
-      borderColor: _Theme.COLOR_CODES.WHITE.PRIMARY,
-      borderRadius: 8,
-      marginVertical: 5,
-      padding: 12,
-      backgroundColor: _Theme.COLOR_CODES.WHITE
-    },
-    button: {
-      borderColor: _Theme.COLOR_CODES.WHITE.PRIMARY,
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      alignItems: 'center'
-    }
-  });
-},642,[1,9,26,27,37,39,36,55,2,643,644],"src/components/Card.js");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.COLOR_CODES = void 0;
-  var COLOR_CODES = {
-    WHITE: '#FFFFFF',
-    BLACK: '#000000',
-    PRIMARY: '#ebeaeb',
-    DARK_PRIMARY: '#888288',
-    GRAY: '#515867',
-    TEXT_COLOR: '#252526'
-  };
-  exports.COLOR_CODES = COLOR_CODES;
-},643,[],"src/utility/Theme.js");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.getImageSourceSync = exports.getImageSource = exports.TabBarItemIOS = exports.TabBarItem = exports.Button = exports.default = void 0;
-
-  var _createIconSet = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "./lib/create-icon-set"));
-
-  var _SimpleLineIcons = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "./glyphmaps/SimpleLineIcons.json"));
-
-  var iconSet = (0, _createIconSet.default)(_SimpleLineIcons.default, 'simple-line-icons', 'SimpleLineIcons.ttf');
-  var _default = iconSet;
-  exports.default = _default;
-  var Button = iconSet.Button,
-      TabBarItem = iconSet.TabBarItem,
-      TabBarItemIOS = iconSet.TabBarItemIOS,
-      getImageSource = iconSet.getImageSource,
-      getImageSourceSync = iconSet.getImageSourceSync;
-  exports.getImageSourceSync = getImageSourceSync;
-  exports.getImageSource = getImageSource;
-  exports.TabBarItemIOS = TabBarItemIOS;
-  exports.TabBarItem = TabBarItem;
-  exports.Button = Button;
-},644,[1,475,645],"node_modules/react-native-vector-icons/SimpleLineIcons.js");
-__d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
-  module.exports = {
-  "user": 57349,
-  "people": 57345,
-  "user-female": 57344,
-  "user-follow": 57346,
-  "user-following": 57347,
-  "user-unfollow": 57348,
-  "login": 57446,
-  "logout": 57445,
-  "emotsmile": 57377,
-  "phone": 58880,
-  "call-end": 57416,
-  "call-in": 57415,
-  "call-out": 57414,
-  "map": 57395,
-  "location-pin": 57494,
-  "direction": 57410,
-  "directions": 57409,
-  "compass": 57413,
-  "layers": 57396,
-  "menu": 58881,
-  "list": 57447,
-  "options-vertical": 58882,
-  "options": 58883,
-  "arrow-down": 58884,
-  "arrow-left": 58885,
-  "arrow-right": 58886,
-  "arrow-up": 58887,
-  "arrow-up-circle": 57464,
-  "arrow-left-circle": 57466,
-  "arrow-right-circle": 57465,
-  "arrow-down-circle": 57467,
-  "check": 57472,
-  "clock": 57473,
-  "plus": 57493,
-  "minus": 58901,
-  "close": 57474,
-  "event": 58905,
-  "exclamation": 58903,
-  "organization": 58902,
-  "trophy": 57350,
-  "screen-smartphone": 57360,
-  "screen-desktop": 57361,
-  "plane": 57362,
-  "notebook": 57363,
-  "mustache": 57364,
-  "mouse": 57365,
-  "magnet": 57366,
-  "energy": 57376,
-  "disc": 57378,
-  "cursor": 57454,
-  "cursor-move": 57379,
-  "crop": 57380,
-  "chemistry": 57382,
-  "speedometer": 57351,
-  "shield": 57358,
-  "screen-tablet": 57359,
-  "magic-wand": 57367,
-  "hourglass": 57368,
-  "graduation": 57369,
-  "ghost": 57370,
-  "game-controller": 57371,
-  "fire": 57372,
-  "eyeglass": 57373,
-  "envelope-open": 57374,
-  "envelope-letter": 57375,
-  "bell": 57383,
-  "badge": 57384,
-  "anchor": 57385,
-  "wallet": 57386,
-  "vector": 57387,
-  "speech": 57388,
-  "puzzle": 57389,
-  "printer": 57390,
-  "present": 57391,
-  "playlist": 57392,
-  "pin": 57393,
-  "picture": 57394,
-  "handbag": 57397,
-  "globe-alt": 57398,
-  "globe": 57399,
-  "folder-alt": 57401,
-  "folder": 57481,
-  "film": 57402,
-  "feed": 57403,
-  "drop": 57406,
-  "drawer": 57407,
-  "docs": 57408,
-  "doc": 57477,
-  "diamond": 57411,
-  "cup": 57412,
-  "calculator": 57417,
-  "bubbles": 57418,
-  "briefcase": 57419,
-  "book-open": 57420,
-  "basket-loaded": 57421,
-  "basket": 57422,
-  "bag": 57423,
-  "action-undo": 57424,
-  "action-redo": 57425,
-  "wrench": 57426,
-  "umbrella": 57427,
-  "trash": 57428,
-  "tag": 57429,
-  "support": 57430,
-  "frame": 57400,
-  "size-fullscreen": 57431,
-  "size-actual": 57432,
-  "shuffle": 57433,
-  "share-alt": 57434,
-  "share": 57435,
-  "rocket": 57436,
-  "question": 57437,
-  "pie-chart": 57438,
-  "pencil": 57439,
-  "note": 57440,
-  "loop": 57444,
-  "home": 57449,
-  "grid": 57450,
-  "graph": 57451,
-  "microphone": 57443,
-  "music-tone-alt": 57441,
-  "music-tone": 57442,
-  "earphones-alt": 57404,
-  "earphones": 57405,
-  "equalizer": 57452,
-  "like": 57448,
-  "dislike": 57453,
-  "control-start": 57455,
-  "control-rewind": 57456,
-  "control-play": 57457,
-  "control-pause": 57458,
-  "control-forward": 57459,
-  "control-end": 57460,
-  "volume-1": 57503,
-  "volume-2": 57504,
-  "volume-off": 57505,
-  "calendar": 57461,
-  "bulb": 57462,
-  "chart": 57463,
-  "ban": 57468,
-  "bubble": 57469,
-  "camrecorder": 57470,
-  "camera": 57471,
-  "cloud-download": 57475,
-  "cloud-upload": 57476,
-  "envelope": 57478,
-  "eye": 57479,
-  "flag": 57480,
-  "heart": 57482,
-  "info": 57483,
-  "key": 57484,
-  "link": 57485,
-  "lock": 57486,
-  "lock-open": 57487,
-  "magnifier": 57488,
-  "magnifier-add": 57489,
-  "magnifier-remove": 57490,
-  "paper-clip": 57491,
-  "paper-plane": 57492,
-  "power": 57495,
-  "refresh": 57496,
-  "reload": 57497,
-  "settings": 57498,
-  "star": 57499,
-  "symbol-female": 57500,
-  "symbol-male": 57501,
-  "target": 57502,
-  "credit-card": 57381,
-  "paypal": 58888,
-  "social-tumblr": 57354,
-  "social-twitter": 57353,
-  "social-facebook": 57355,
-  "social-instagram": 58889,
-  "social-linkedin": 58890,
-  "social-pinterest": 58891,
-  "social-github": 58892,
-  "social-google": 58893,
-  "social-reddit": 58894,
-  "social-skype": 58895,
-  "social-dribbble": 57357,
-  "social-behance": 58896,
-  "social-foursqare": 58897,
-  "social-soundcloud": 58898,
-  "social-spotify": 58899,
-  "social-stumbleupon": 58900,
-  "social-youtube": 57352,
-  "social-dropbox": 57356,
-  "social-vkontakte": 58904,
-  "social-steam": 58912
-};
-},645,[],"node_modules/react-native-vector-icons/glyphmaps/SimpleLineIcons.json");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.default = void 0;
-
-  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/classCallCheck"));
-
-  var Categories = function Categories(payload, index) {
-    (0, _classCallCheck2.default)(this, Categories);
-    this.isCollapsed = false;
-    this.title = payload.categoryName;
-    this.servingSize = payload.servingSize ? payload.servingSize : '';
-    this.itemColor = payload.colorCode;
-    this.index = index;
-    this.data = payload.subcategories;
-  };
-
-  exports.default = Categories;
-},646,[1,26],"src/models/Categories.js");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  module.exports = _$$_REQUIRE(_dependencyMap[0], "react-native/Libraries/Image/AssetRegistry").registerAsset({
-    "__packager_asset": true,
-    "httpServerLocation": "/assets/src/assets",
-    "width": 63,
-    "height": 63,
-    "scales": [2, 3],
-    "hash": "ef6d8bde7683e4dec5d338241f8fb224",
-    "name": "help",
-    "type": "png"
-  });
-},647,[219],"src/assets/help@2x.png");
-__d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
-  module.exports = {
-  "name": "CategoryApp",
-  "displayName": "CategoryApp"
-};
-},648,[],"app.json");
+},639,[1,9,14,55,2,474,640,641],"src/components/SearchBar.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   /**
    * @license
@@ -110766,7 +110204,569 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
         root._ = _;
       }
   }).call(this);
-},649,[],"node_modules/lodash/lodash.js");
+},640,[],"node_modules/lodash/lodash.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.getImageSourceSync = exports.getImageSource = exports.TabBarItemIOS = exports.TabBarItem = exports.Button = exports.default = void 0;
+
+  var _createIconSet = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "./lib/create-icon-set"));
+
+  var _EvilIcons = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "./glyphmaps/EvilIcons.json"));
+
+  var iconSet = (0, _createIconSet.default)(_EvilIcons.default, 'EvilIcons', 'EvilIcons.ttf');
+  var _default = iconSet;
+  exports.default = _default;
+  var Button = iconSet.Button,
+      TabBarItem = iconSet.TabBarItem,
+      TabBarItemIOS = iconSet.TabBarItemIOS,
+      getImageSource = iconSet.getImageSource,
+      getImageSourceSync = iconSet.getImageSourceSync;
+  exports.getImageSourceSync = getImageSourceSync;
+  exports.getImageSource = getImageSource;
+  exports.TabBarItemIOS = TabBarItemIOS;
+  exports.TabBarItem = TabBarItem;
+  exports.Button = Button;
+},641,[1,475,642],"node_modules/react-native-vector-icons/EvilIcons.js");
+__d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
+  module.exports = {
+  "archive": 61696,
+  "arrow-down": 61697,
+  "arrow-left": 61698,
+  "arrow-right": 61699,
+  "arrow-up": 61700,
+  "bell": 61701,
+  "calendar": 61702,
+  "camera": 61703,
+  "cart": 61704,
+  "chart": 61705,
+  "check": 61706,
+  "chevron-down": 61707,
+  "chevron-left": 61708,
+  "chevron-right": 61709,
+  "chevron-up": 61710,
+  "clock": 61711,
+  "close": 61712,
+  "close-o": 61713,
+  "comment": 61714,
+  "credit-card": 61715,
+  "envelope": 61716,
+  "exclamation": 61717,
+  "external-link": 61718,
+  "eye": 61719,
+  "gear": 61720,
+  "heart": 61721,
+  "image": 61722,
+  "like": 61723,
+  "link": 61724,
+  "location": 61725,
+  "lock": 61726,
+  "minus": 61727,
+  "navicon": 61728,
+  "paperclip": 61729,
+  "pencil": 61730,
+  "play": 61731,
+  "plus": 61732,
+  "pointer": 61733,
+  "question": 61734,
+  "redo": 61735,
+  "refresh": 61736,
+  "retweet": 61737,
+  "sc-facebook": 61738,
+  "sc-github": 61739,
+  "sc-google-plus": 61740,
+  "sc-instagram": 61741,
+  "sc-linkedin": 61742,
+  "sc-odnoklassniki": 61743,
+  "sc-pinterest": 61744,
+  "sc-skype": 61745,
+  "sc-soundcloud": 61746,
+  "sc-telegram": 61747,
+  "sc-tumblr": 61748,
+  "sc-twitter": 61749,
+  "sc-vimeo": 61750,
+  "sc-vk": 61751,
+  "sc-youtube": 61752,
+  "search": 61753,
+  "share-apple": 61754,
+  "share-google": 61755,
+  "spinner": 61756,
+  "spinner-2": 61757,
+  "spinner-3": 61758,
+  "star": 61759,
+  "tag": 61760,
+  "trash": 61761,
+  "trophy": 61762,
+  "undo": 61763,
+  "unlock": 61764,
+  "user": 61765
+};
+},642,[],"node_modules/react-native-vector-icons/glyphmaps/EvilIcons.json");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
+
+  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/createClass"));
+
+  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/inherits"));
+
+  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/possibleConstructorReturn"));
+
+  var _getPrototypeOf2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[7], "react"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[8], "react-native");
+
+  var _Theme = _$$_REQUIRE(_dependencyMap[9], "../utility/Theme");
+
+  var _SimpleLineIcons = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "react-native-vector-icons/SimpleLineIcons"));
+
+  var _jsxFileName = "/home/lakshbhutani/CategoryApp/src/components/Card.js";
+
+  function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
+
+  function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+  var Accordion = function (_Component) {
+    (0, _inherits2.default)(Accordion, _Component);
+
+    var _super = _createSuper(Accordion);
+
+    function Accordion(props) {
+      (0, _classCallCheck2.default)(this, Accordion);
+      return _super.call(this, props);
+    }
+
+    (0, _createClass2.default)(Accordion, [{
+      key: "render",
+      value: function render() {
+        var _this = this;
+
+        var _this$props$item = this.props.item,
+            title = _this$props$item.title,
+            isCollapsed = _this$props$item.isCollapsed,
+            data = _this$props$item.data,
+            itemColor = _this$props$item.itemColor,
+            servingSize = _this$props$item.servingSize;
+        return _react.default.createElement(_reactNative.View, {
+          style: styles.accordionHolder,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 14,
+            columnNumber: 7
+          }
+        }, _react.default.createElement(_reactNative.TouchableOpacity, {
+          activeOpacity: 0.7,
+          onPress: this.props.onClickFunction,
+          style: styles.button,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 15,
+            columnNumber: 9
+          }
+        }, _react.default.createElement(_reactNative.View, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 19,
+            columnNumber: 11
+          }
+        }, _react.default.createElement(_reactNative.Text, {
+          style: [styles.accordionButtonText, {
+            color: itemColor
+          }],
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 20,
+            columnNumber: 13
+          }
+        }, title, ' ', _react.default.createElement(_reactNative.Text, {
+          style: {
+            color: _Theme.COLOR_CODES.BLACK,
+            fontSize: 18
+          },
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 22,
+            columnNumber: 15
+          }
+        }, " " + (servingSize ? '(' + servingSize + ')' : '')))), _react.default.createElement(_reactNative.View, {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 27,
+            columnNumber: 11
+          }
+        }, _react.default.createElement(_SimpleLineIcons.default, {
+          name: isCollapsed ? 'arrow-up' : 'arrow-down',
+          size: 15,
+          color: _Theme.COLOR_CODES.DARK_PRIMARY,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28,
+            columnNumber: 13
+          }
+        }))), isCollapsed ? data.map(function (val, index) {
+          return _react.default.createElement(_reactNative.View, {
+            __self: _this,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 37,
+              columnNumber: 15
+            }
+          }, val.subCategoryname ? _react.default.createElement(_reactNative.Text, {
+            key: val + index + Math.floor(Math.random() * 10),
+            style: [styles.accordionText, {
+              color: itemColor
+            }],
+            __self: _this,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 39,
+              columnNumber: 19
+            }
+          }, val.subCategoryname) : null, val.items.map(function (item, inde) {
+            return _react.default.createElement(_reactNative.Text, {
+              key: item + inde,
+              style: styles.categoryItem,
+              __self: _this,
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 46,
+                columnNumber: 19
+              }
+            }, item);
+          }));
+        }) : null);
+      }
+    }]);
+    return Accordion;
+  }(_react.Component);
+
+  exports.default = Accordion;
+
+  var styles = _reactNative.StyleSheet.create({
+    accordionText: {
+      fontSize: 15,
+      paddingVertical: 10
+    },
+    categoryItem: {
+      fontSize: 13,
+      paddingVertical: 8,
+      borderBottomWidth: 0.2,
+      color: _Theme.COLOR_CODES.WHITE.BLACK,
+      opacity: 0.8,
+      borderBottomColor: _Theme.COLOR_CODES.WHITE.PRIMARY
+    },
+    accordionButtonText: {
+      fontSize: 21
+    },
+    accordionHolder: {
+      borderColor: _Theme.COLOR_CODES.WHITE.PRIMARY,
+      borderRadius: 8,
+      marginVertical: 5,
+      padding: 12,
+      backgroundColor: _Theme.COLOR_CODES.WHITE
+    },
+    button: {
+      borderColor: _Theme.COLOR_CODES.WHITE.PRIMARY,
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center'
+    }
+  });
+},643,[1,9,26,27,37,39,36,55,2,644,645],"src/components/Card.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.COLOR_CODES = void 0;
+  var COLOR_CODES = {
+    WHITE: '#FFFFFF',
+    BLACK: '#000000',
+    PRIMARY: '#ebeaeb',
+    DARK_PRIMARY: '#888288',
+    GRAY: '#515867',
+    TEXT_COLOR: '#252526'
+  };
+  exports.COLOR_CODES = COLOR_CODES;
+},644,[],"src/utility/Theme.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.getImageSourceSync = exports.getImageSource = exports.TabBarItemIOS = exports.TabBarItem = exports.Button = exports.default = void 0;
+
+  var _createIconSet = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "./lib/create-icon-set"));
+
+  var _SimpleLineIcons = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "./glyphmaps/SimpleLineIcons.json"));
+
+  var iconSet = (0, _createIconSet.default)(_SimpleLineIcons.default, 'simple-line-icons', 'SimpleLineIcons.ttf');
+  var _default = iconSet;
+  exports.default = _default;
+  var Button = iconSet.Button,
+      TabBarItem = iconSet.TabBarItem,
+      TabBarItemIOS = iconSet.TabBarItemIOS,
+      getImageSource = iconSet.getImageSource,
+      getImageSourceSync = iconSet.getImageSourceSync;
+  exports.getImageSourceSync = getImageSourceSync;
+  exports.getImageSource = getImageSource;
+  exports.TabBarItemIOS = TabBarItemIOS;
+  exports.TabBarItem = TabBarItem;
+  exports.Button = Button;
+},645,[1,475,646],"node_modules/react-native-vector-icons/SimpleLineIcons.js");
+__d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
+  module.exports = {
+  "user": 57349,
+  "people": 57345,
+  "user-female": 57344,
+  "user-follow": 57346,
+  "user-following": 57347,
+  "user-unfollow": 57348,
+  "login": 57446,
+  "logout": 57445,
+  "emotsmile": 57377,
+  "phone": 58880,
+  "call-end": 57416,
+  "call-in": 57415,
+  "call-out": 57414,
+  "map": 57395,
+  "location-pin": 57494,
+  "direction": 57410,
+  "directions": 57409,
+  "compass": 57413,
+  "layers": 57396,
+  "menu": 58881,
+  "list": 57447,
+  "options-vertical": 58882,
+  "options": 58883,
+  "arrow-down": 58884,
+  "arrow-left": 58885,
+  "arrow-right": 58886,
+  "arrow-up": 58887,
+  "arrow-up-circle": 57464,
+  "arrow-left-circle": 57466,
+  "arrow-right-circle": 57465,
+  "arrow-down-circle": 57467,
+  "check": 57472,
+  "clock": 57473,
+  "plus": 57493,
+  "minus": 58901,
+  "close": 57474,
+  "event": 58905,
+  "exclamation": 58903,
+  "organization": 58902,
+  "trophy": 57350,
+  "screen-smartphone": 57360,
+  "screen-desktop": 57361,
+  "plane": 57362,
+  "notebook": 57363,
+  "mustache": 57364,
+  "mouse": 57365,
+  "magnet": 57366,
+  "energy": 57376,
+  "disc": 57378,
+  "cursor": 57454,
+  "cursor-move": 57379,
+  "crop": 57380,
+  "chemistry": 57382,
+  "speedometer": 57351,
+  "shield": 57358,
+  "screen-tablet": 57359,
+  "magic-wand": 57367,
+  "hourglass": 57368,
+  "graduation": 57369,
+  "ghost": 57370,
+  "game-controller": 57371,
+  "fire": 57372,
+  "eyeglass": 57373,
+  "envelope-open": 57374,
+  "envelope-letter": 57375,
+  "bell": 57383,
+  "badge": 57384,
+  "anchor": 57385,
+  "wallet": 57386,
+  "vector": 57387,
+  "speech": 57388,
+  "puzzle": 57389,
+  "printer": 57390,
+  "present": 57391,
+  "playlist": 57392,
+  "pin": 57393,
+  "picture": 57394,
+  "handbag": 57397,
+  "globe-alt": 57398,
+  "globe": 57399,
+  "folder-alt": 57401,
+  "folder": 57481,
+  "film": 57402,
+  "feed": 57403,
+  "drop": 57406,
+  "drawer": 57407,
+  "docs": 57408,
+  "doc": 57477,
+  "diamond": 57411,
+  "cup": 57412,
+  "calculator": 57417,
+  "bubbles": 57418,
+  "briefcase": 57419,
+  "book-open": 57420,
+  "basket-loaded": 57421,
+  "basket": 57422,
+  "bag": 57423,
+  "action-undo": 57424,
+  "action-redo": 57425,
+  "wrench": 57426,
+  "umbrella": 57427,
+  "trash": 57428,
+  "tag": 57429,
+  "support": 57430,
+  "frame": 57400,
+  "size-fullscreen": 57431,
+  "size-actual": 57432,
+  "shuffle": 57433,
+  "share-alt": 57434,
+  "share": 57435,
+  "rocket": 57436,
+  "question": 57437,
+  "pie-chart": 57438,
+  "pencil": 57439,
+  "note": 57440,
+  "loop": 57444,
+  "home": 57449,
+  "grid": 57450,
+  "graph": 57451,
+  "microphone": 57443,
+  "music-tone-alt": 57441,
+  "music-tone": 57442,
+  "earphones-alt": 57404,
+  "earphones": 57405,
+  "equalizer": 57452,
+  "like": 57448,
+  "dislike": 57453,
+  "control-start": 57455,
+  "control-rewind": 57456,
+  "control-play": 57457,
+  "control-pause": 57458,
+  "control-forward": 57459,
+  "control-end": 57460,
+  "volume-1": 57503,
+  "volume-2": 57504,
+  "volume-off": 57505,
+  "calendar": 57461,
+  "bulb": 57462,
+  "chart": 57463,
+  "ban": 57468,
+  "bubble": 57469,
+  "camrecorder": 57470,
+  "camera": 57471,
+  "cloud-download": 57475,
+  "cloud-upload": 57476,
+  "envelope": 57478,
+  "eye": 57479,
+  "flag": 57480,
+  "heart": 57482,
+  "info": 57483,
+  "key": 57484,
+  "link": 57485,
+  "lock": 57486,
+  "lock-open": 57487,
+  "magnifier": 57488,
+  "magnifier-add": 57489,
+  "magnifier-remove": 57490,
+  "paper-clip": 57491,
+  "paper-plane": 57492,
+  "power": 57495,
+  "refresh": 57496,
+  "reload": 57497,
+  "settings": 57498,
+  "star": 57499,
+  "symbol-female": 57500,
+  "symbol-male": 57501,
+  "target": 57502,
+  "credit-card": 57381,
+  "paypal": 58888,
+  "social-tumblr": 57354,
+  "social-twitter": 57353,
+  "social-facebook": 57355,
+  "social-instagram": 58889,
+  "social-linkedin": 58890,
+  "social-pinterest": 58891,
+  "social-github": 58892,
+  "social-google": 58893,
+  "social-reddit": 58894,
+  "social-skype": 58895,
+  "social-dribbble": 57357,
+  "social-behance": 58896,
+  "social-foursqare": 58897,
+  "social-soundcloud": 58898,
+  "social-spotify": 58899,
+  "social-stumbleupon": 58900,
+  "social-youtube": 57352,
+  "social-dropbox": 57356,
+  "social-vkontakte": 58904,
+  "social-steam": 58912
+};
+},646,[],"node_modules/react-native-vector-icons/glyphmaps/SimpleLineIcons.json");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/classCallCheck"));
+
+  var Categories = function Categories(payload, index) {
+    (0, _classCallCheck2.default)(this, Categories);
+    this.isCollapsed = false;
+    this.title = payload.categoryName;
+    this.servingSize = payload.servingSize ? payload.servingSize : '';
+    this.itemColor = payload.colorCode;
+    this.index = index;
+    this.data = payload.subcategories;
+  };
+
+  exports.default = Categories;
+},647,[1,26],"src/models/Categories.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  module.exports = _$$_REQUIRE(_dependencyMap[0], "react-native/Libraries/Image/AssetRegistry").registerAsset({
+    "__packager_asset": true,
+    "httpServerLocation": "/assets/src/assets",
+    "width": 63,
+    "height": 63,
+    "scales": [2, 3],
+    "hash": "ef6d8bde7683e4dec5d338241f8fb224",
+    "name": "help",
+    "type": "png"
+  });
+},648,[219],"src/assets/help@2x.png");
+__d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
+  module.exports = {
+  "name": "CategoryApp",
+  "displayName": "CategoryApp"
+};
+},649,[],"app.json");
 __r(94);
 __r(0);
 //# sourceMappingURL=index.map

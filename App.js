@@ -167,6 +167,7 @@ const App = (props) => {
                 <Accordion
                   onClickFunction={() => updateSectionItemState(index)}
                   item={item}
+                  inputValue={searchInputValue}
                 />
               )}
             />
