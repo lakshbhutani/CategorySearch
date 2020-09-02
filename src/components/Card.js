@@ -74,6 +74,7 @@ const styles = StyleSheet.create({
     color: COLOR_CODES.WHITE.BLACK,
     opacity: 0.8,
     borderBottomColor: COLOR_CODES.WHITE.PRIMARY,
+    backgroundColor: 'yellow',
   },
   accordionButtonText: {
     fontSize: 21,

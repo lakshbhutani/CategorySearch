@@ -1339,7 +1339,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   _reactNative.AppRegistry.registerComponent(_app.name, function () {
     return _App.default;
   });
-},0,[1,2,473,649],"index.js");
+},0,[1,2,473,651],"index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
@@ -98846,6 +98846,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
             return updateSectionItemState(index);
           },
           item: item,
+          inputValue: searchInputValue,
           __self: _this,
           __source: {
             fileName: _jsxFileName,
@@ -98920,7 +98921,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var _c;
 
   $RefreshReg$(_c, "App");
-},473,[1,9,22,108,14,55,2,474,639,643,644,647,648],"App.js");
+},473,[1,9,22,108,14,55,2,474,639,643,644,649,650],"App.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -110333,6 +110334,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _SimpleLineIcons = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "react-native-vector-icons/SimpleLineIcons"));
 
+  var _reactNativeHighlightWords = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "react-native-highlight-words"));
+
   var _jsxFileName = "/home/lakshbhutani/CategoryApp/src/components/Card.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
@@ -110365,7 +110368,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 14,
+            lineNumber: 15,
             columnNumber: 7
           }
         }, _react.default.createElement(_reactNative.TouchableOpacity, {
@@ -110375,14 +110378,14 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 15,
+            lineNumber: 16,
             columnNumber: 9
           }
         }, _react.default.createElement(_reactNative.View, {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 19,
+            lineNumber: 20,
             columnNumber: 11
           }
         }, _react.default.createElement(_reactNative.Text, {
@@ -110392,7 +110395,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 20,
+            lineNumber: 21,
             columnNumber: 13
           }
         }, title, ' ', _react.default.createElement(_reactNative.Text, {
@@ -110403,14 +110406,14 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 22,
+            lineNumber: 23,
             columnNumber: 15
           }
         }, " " + (servingSize ? '(' + servingSize + ')' : '')))), _react.default.createElement(_reactNative.View, {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 27,
+            lineNumber: 28,
             columnNumber: 11
           }
         }, _react.default.createElement(_SimpleLineIcons.default, {
@@ -110420,7 +110423,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 28,
+            lineNumber: 29,
             columnNumber: 13
           }
         }))), isCollapsed ? data.map(function (val, index) {
@@ -110428,7 +110431,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
             __self: _this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 37,
+              lineNumber: 38,
               columnNumber: 15
             }
           }, val.subCategoryname ? _react.default.createElement(_reactNative.Text, {
@@ -110439,20 +110442,23 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
             __self: _this,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 39,
+              lineNumber: 40,
               columnNumber: 19
             }
           }, val.subCategoryname) : null, val.items.map(function (item, inde) {
-            return _react.default.createElement(_reactNative.Text, {
-              key: item + inde,
-              style: styles.categoryItem,
+            return _react.default.createElement(_reactNativeHighlightWords.default, {
+              highlightStyle: {
+                backgroundColor: 'yellow'
+              },
+              searchWords: [_this.props.inputValue],
+              textToHighlight: item,
               __self: _this,
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 19
               }
-            }, item);
+            });
           }));
         }) : null);
       }
@@ -110473,7 +110479,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       borderBottomWidth: 0.2,
       color: _Theme.COLOR_CODES.WHITE.BLACK,
       opacity: 0.8,
-      borderBottomColor: _Theme.COLOR_CODES.WHITE.PRIMARY
+      borderBottomColor: _Theme.COLOR_CODES.WHITE.PRIMARY,
+      backgroundColor: 'yellow'
     },
     accordionButtonText: {
       fontSize: 21
@@ -110492,7 +110499,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       alignItems: 'center'
     }
   });
-},643,[1,9,26,27,37,39,36,55,2,644,645],"src/components/Card.js");
+},643,[1,9,26,27,37,39,36,55,2,644,645,647],"src/components/Card.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   Object.defineProperty(exports, "__esModule", {
     value: true
@@ -110733,6 +110740,270 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   Object.defineProperty(exports, "__esModule", {
     value: true
   });
+  exports.default = Highlighter;
+
+  var _extends2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/extends"));
+
+  var _objectWithoutProperties2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/objectWithoutProperties"));
+
+  var _react = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "react"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[4], "react-native");
+
+  var _highlightWordsCore = _$$_REQUIRE(_dependencyMap[5], "highlight-words-core");
+
+  var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "prop-types"));
+
+  var _jsxFileName = "/home/lakshbhutani/CategoryApp/node_modules/react-native-highlight-words/index.js";
+  Highlighter.propTypes = {
+    autoEscape: _propTypes.default.bool,
+    highlightStyle: _reactNative.Text.propTypes.style,
+    searchWords: _propTypes.default.arrayOf(_propTypes.default.string).isRequired,
+    textToHighlight: _propTypes.default.string.isRequired,
+    sanitize: _propTypes.default.func,
+    style: _reactNative.Text.propTypes.style
+  };
+
+  function Highlighter(_ref) {
+    var _this = this;
+
+    var autoEscape = _ref.autoEscape,
+        highlightStyle = _ref.highlightStyle,
+        searchWords = _ref.searchWords,
+        textToHighlight = _ref.textToHighlight,
+        sanitize = _ref.sanitize,
+        style = _ref.style,
+        props = (0, _objectWithoutProperties2.default)(_ref, ["autoEscape", "highlightStyle", "searchWords", "textToHighlight", "sanitize", "style"]);
+    var chunks = (0, _highlightWordsCore.findAll)({
+      textToHighlight: textToHighlight,
+      searchWords: searchWords,
+      sanitize: sanitize,
+      autoEscape: autoEscape
+    });
+    return _react.default.createElement(_reactNative.Text, (0, _extends2.default)({
+      style: style
+    }, props, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 9
+      }
+    }), chunks.map(function (chunk, index) {
+      var text = textToHighlight.substr(chunk.start, chunk.end - chunk.start);
+      return !chunk.highlight ? text : _react.default.createElement(_reactNative.Text, {
+        key: index,
+        style: chunk.highlight && highlightStyle,
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 25
+        }
+      }, text);
+    }));
+  }
+},647,[1,13,53,55,2,648,71],"node_modules/react-native-highlight-words/index.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  module.exports = function (modules) {
+    var installedModules = {};
+
+    function __webpack_require__(moduleId) {
+      if (installedModules[moduleId]) return installedModules[moduleId].exports;
+      var module = installedModules[moduleId] = {
+        exports: {},
+        id: moduleId,
+        loaded: false
+      };
+      modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+      module.loaded = true;
+      return module.exports;
+    }
+
+    __webpack_require__.m = modules;
+    __webpack_require__.c = installedModules;
+    __webpack_require__.p = "";
+    return __webpack_require__(0);
+  }([function (module, exports, __webpack_require__) {
+    module.exports = __webpack_require__(1);
+  }, function (module, exports, __webpack_require__) {
+    'use strict';
+
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+
+    var _utils = __webpack_require__(2);
+
+    Object.defineProperty(exports, 'combineChunks', {
+      enumerable: true,
+      get: function get() {
+        return _utils.combineChunks;
+      }
+    });
+    Object.defineProperty(exports, 'fillInChunks', {
+      enumerable: true,
+      get: function get() {
+        return _utils.fillInChunks;
+      }
+    });
+    Object.defineProperty(exports, 'findAll', {
+      enumerable: true,
+      get: function get() {
+        return _utils.findAll;
+      }
+    });
+    Object.defineProperty(exports, 'findChunks', {
+      enumerable: true,
+      get: function get() {
+        return _utils.findChunks;
+      }
+    });
+  }, function (module, exports) {
+    'use strict';
+
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+
+    var findAll = exports.findAll = function findAll(_ref) {
+      var autoEscape = _ref.autoEscape,
+          _ref$caseSensitive = _ref.caseSensitive,
+          caseSensitive = _ref$caseSensitive === undefined ? false : _ref$caseSensitive,
+          _ref$findChunks = _ref.findChunks,
+          findChunks = _ref$findChunks === undefined ? defaultFindChunks : _ref$findChunks,
+          sanitize = _ref.sanitize,
+          searchWords = _ref.searchWords,
+          textToHighlight = _ref.textToHighlight;
+      return fillInChunks({
+        chunksToHighlight: combineChunks({
+          chunks: findChunks({
+            autoEscape: autoEscape,
+            caseSensitive: caseSensitive,
+            sanitize: sanitize,
+            searchWords: searchWords,
+            textToHighlight: textToHighlight
+          })
+        }),
+        totalLength: textToHighlight ? textToHighlight.length : 0
+      });
+    };
+
+    var combineChunks = exports.combineChunks = function combineChunks(_ref2) {
+      var chunks = _ref2.chunks;
+      chunks = chunks.sort(function (first, second) {
+        return first.start - second.start;
+      }).reduce(function (processedChunks, nextChunk) {
+        if (processedChunks.length === 0) {
+          return [nextChunk];
+        } else {
+          var prevChunk = processedChunks.pop();
+
+          if (nextChunk.start <= prevChunk.end) {
+            var endIndex = Math.max(prevChunk.end, nextChunk.end);
+            processedChunks.push({
+              highlight: false,
+              start: prevChunk.start,
+              end: endIndex
+            });
+          } else {
+            processedChunks.push(prevChunk, nextChunk);
+          }
+
+          return processedChunks;
+        }
+      }, []);
+      return chunks;
+    };
+
+    var defaultFindChunks = function defaultFindChunks(_ref3) {
+      var autoEscape = _ref3.autoEscape,
+          caseSensitive = _ref3.caseSensitive,
+          _ref3$sanitize = _ref3.sanitize,
+          sanitize = _ref3$sanitize === undefined ? defaultSanitize : _ref3$sanitize,
+          searchWords = _ref3.searchWords,
+          textToHighlight = _ref3.textToHighlight;
+      textToHighlight = sanitize(textToHighlight);
+      return searchWords.filter(function (searchWord) {
+        return searchWord;
+      }).reduce(function (chunks, searchWord) {
+        searchWord = sanitize(searchWord);
+
+        if (autoEscape) {
+          searchWord = escapeRegExpFn(searchWord);
+        }
+
+        var regex = new RegExp(searchWord, caseSensitive ? 'g' : 'gi');
+        var match = void 0;
+
+        while (match = regex.exec(textToHighlight)) {
+          var _start = match.index;
+          var _end = regex.lastIndex;
+
+          if (_end > _start) {
+            chunks.push({
+              highlight: false,
+              start: _start,
+              end: _end
+            });
+          }
+
+          if (match.index === regex.lastIndex) {
+            regex.lastIndex++;
+          }
+        }
+
+        return chunks;
+      }, []);
+    };
+
+    exports.findChunks = defaultFindChunks;
+
+    var fillInChunks = exports.fillInChunks = function fillInChunks(_ref4) {
+      var chunksToHighlight = _ref4.chunksToHighlight,
+          totalLength = _ref4.totalLength;
+      var allChunks = [];
+
+      var append = function append(start, end, highlight) {
+        if (end - start > 0) {
+          allChunks.push({
+            start: start,
+            end: end,
+            highlight: highlight
+          });
+        }
+      };
+
+      if (chunksToHighlight.length === 0) {
+        append(0, totalLength, false);
+      } else {
+        var lastIndex = 0;
+        chunksToHighlight.forEach(function (chunk) {
+          append(lastIndex, chunk.start, false);
+          append(chunk.start, chunk.end, true);
+          lastIndex = chunk.end;
+        });
+        append(lastIndex, totalLength, false);
+      }
+
+      return allChunks;
+    };
+
+    function defaultSanitize(string) {
+      return string;
+    }
+
+    function escapeRegExpFn(string) {
+      return string.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
+    }
+  }]);
+},648,[],"node_modules/highlight-words-core/dist/index.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
   exports.default = void 0;
 
   var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/classCallCheck"));
@@ -110748,7 +111019,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   exports.default = Categories;
-},647,[1,26],"src/models/Categories.js");
+},649,[1,26],"src/models/Categories.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   module.exports = _$$_REQUIRE(_dependencyMap[0], "react-native/Libraries/Image/AssetRegistry").registerAsset({
     "__packager_asset": true,
@@ -110760,13 +111031,13 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     "name": "help",
     "type": "png"
   });
-},648,[219],"src/assets/help@2x.png");
+},650,[219],"src/assets/help@2x.png");
 __d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
   module.exports = {
   "name": "CategoryApp",
   "displayName": "CategoryApp"
 };
-},649,[],"app.json");
+},651,[],"app.json");
 __r(94);
 __r(0);
 //# sourceMappingURL=index.map
